@@ -5,5 +5,8 @@ repo_name: 'docker-mailserver/docker-mailserver'
 repo_url: 'https://github.com/docker-mailserver/docker-mailserver'
 nav:
   - Home: Home.md
+  - When something went wrong:
+    - Debugging: Debugging.md
+    - FAQ: FAQ-and-Tips.md
 theme:
   name: 'material'
