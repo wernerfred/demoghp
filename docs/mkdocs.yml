@@ -1,0 +1,10 @@
+site_name: Test docs
+site_description: 'A docs test'
+site_author: 'Docker Mailserver'
+docs_dir: docs/
+repo_name: 'docker-mailserver/docker-mailserver'
+repo_url: 'https://github.com/docker-mailserver/docker-mailserver'
+nav:
+  - Home: Home.md
+theme:
+  name: 'material'
