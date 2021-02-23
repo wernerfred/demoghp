@@ -10,6 +10,5 @@ repo_url: 'https://github.com/docker-mailserver/docker-mailserver'
 #    - FAQ: FAQ-and-Tips.md
 theme:
   name: 'material'
-copyright: Copyright &copy docker-mailserver organizaiton
-extra:
-  generator: false
+copyright: Copyright &copy <a href="https://github.com/docker-mailserver/docker-mailserver">docker-mailserver organizaiton</a>
+
