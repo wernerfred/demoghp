@@ -1,4 +1,5 @@
-site_name: Test mkdocs
+site_name: 'Test mkdocs'
+docs_dir: 'content'
 site_description: 'A docs test'
 site_author: 'Docker Mailserver'
 repo_name: 'docker-mailserver/docker-mailserver'
