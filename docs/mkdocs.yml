@@ -1,0 +1,8 @@
+site_name: Test mkdocs
+site_description: 'A docs test'
+site_author: 'Docker Mailserver'
+repo_name: 'docker-mailserver/docker-mailserver'
+repo_url: 'https://github.com/docker-mailserver/docker-mailserver'
+theme:
+  name: 'material'
+copyright: Copyright &copy <a href="https://github.com/docker-mailserver/docker-mailserver">docker-mailserver organizaiton!</a>
