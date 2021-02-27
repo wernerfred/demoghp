@@ -17,10 +17,13 @@ jobs:
   deploy:
     name: Deploy documentation to gh-pages
     runs-on: ubuntu-20.04
-    if: github.event_name != 'pull_request'
+    if: github.event_name = 'push'
     needs: build
     steps:
     - uses: actions/checkout@v2
+    - name: mkdocs build --strict
+      run: |
+        docker run --rm -v ${PWD}:/docs squidfunk/mkdocs-material build --config-file docs/mkdocs.yml --strict
     - name: Publish documentation
       uses: peaceiris/actions-gh-pages@v3
       with:
